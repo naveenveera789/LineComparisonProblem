@@ -21,7 +21,7 @@ namespace LineComparison
         }
         public void Check(double lengthOne, double lengthTwo)
         {
-            if(lengthOne.Equals(lengthTwo) == 0 )
+            if(lengthOne.Equals(lengthTwo))
             {
                 Console.WriteLine("The two lines are equal");
             }
